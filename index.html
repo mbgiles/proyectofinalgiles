@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://dolarapi.com">
+    <link rel="stylesheet" href="https://dolarapi.com/v1/dolares">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Conversor de Monedas</title>
+    
+</head>
+<body>
+    <section>
+
+        <div class="resultado" id="resultados">
+
+        </div></section>
+
+    <main>
+    <h1>Conversor de Monedas</h1>
+    <form id="conversorForm">
+        <div>
+        <label>Operación deseada:
+            <select id="opcionesConvertir">
+
+            
+                <option value="1">Convertir Dólar Oficial a Pesos</option>
+                <option value="2">Convertir Dólar Blue a Pesos</option>
+                <option value="3">Convertir Pesos a Dólares</option>
+            </select>
+        </label>
+    </div>
+        <br>
+        <div>
+        <label>Monto:
+            <input type="number" id="montoInput">
+        </label>
+    </div>
+        <br>
+        <button type="button" id="convertirButton">Convertir</button>
+
+    </form>
+                <div id="resultadoTexto"></div>
+
+                <div id= "ingresonoValido" ></div>
+                
+                <div id="historialDiv" ></div>
+                <div class="resultado" id="resultados"></div>
+
+
+</main>
+
+    
+    </script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./main.js"></script>
+    
+</body>
+</html>
